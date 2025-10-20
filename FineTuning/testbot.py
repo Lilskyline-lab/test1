@@ -36,7 +36,7 @@ def load_config(model_dir):
         "embed_dim": 128,
         "num_heads": 4,
         "num_layers": 2,
-        "max_seq_len": 64
+        "max_seq_len": 512
     }
 
 def load_model_and_tokenizer(model_dir, tokenizer_path, device):
@@ -205,7 +205,7 @@ def chat_loop(model, tokenizer, device, max_new_tokens, temperature):
 def main():
     parser = argparse.ArgumentParser(description="Charger un modèle entraîné et chatter")
     parser.add_argument("--model-dir", type=str, default="./my_tiny_chatbot", help="Répertoire contenant model.pt et config.json")
-    parser.add_argument("--tokenizer", type=str, default="../Tokenizer/tokenizer_model.bin", help="Chemin vers le tokenizer BPE")
+    parser.add_argument("--tokenizer", type=str, default="../Tokenizer/tokenizer_5000.bin", help="Chemin vers le tokenizer BPE")
     parser.add_argument("--device", type=str, default="cpu", help="Device (ex: cpu)")
     parser.add_argument("--max-new-tokens", type=int, default=40, help="Nombre de tokens à générer")
     parser.add_argument("--temperature", type=float, default=0.7, help="Température de génération")
