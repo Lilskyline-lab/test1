@@ -90,11 +90,11 @@ class QAGenerator:
             "Décris {subject}.",
         ]
         self.conversation_templates = [
-            ("Hello", "Hello! How are you doing today? 😊"),
-            ("Hi", "Hi! Great to see you again!"),
-            ("How are you?", "I'm doing great, thanks! And you?"),
-            ("Thank you", "You're welcome! 😄"),
-            ("Good night", "Good night 🌙 Sweet dreams!"),
+            ("Bonjour", "Bonjour ! Comment vas-tu aujourd'hui ? 😊"),
+            ("Salut", "Salut ! Heureux de te revoir !"),
+            ("Comment ça va ?", "Je vais super bien, merci ! Et toi ?"),
+            ("Merci", "Avec plaisir 😄"),
+            ("Bonne nuit", "Bonne nuit 🌙 fais de beaux rêves !"),
         ]
 
     def _truncate_sentence(self, text: str, max_len=500):
@@ -204,10 +204,10 @@ class ContinuousTrainer:
                 cfg = json.load(f)
         else:
             cfg = {
-                "vocab_size": 5000,
-                "embed_dim": 384,     
-                "num_heads": 6,        
-                "num_layers": 6,       
+                "vocab_size": 300,
+                "embed_dim": 128,
+                "num_heads": 4,
+                "num_layers": 2,
                 "max_seq_len": 512
             }
             with open(cfg_path, 'w') as f:
@@ -402,7 +402,7 @@ def main():
     parser.add_argument("--model-dir", type=str, default="./my_tiny_chatbot", 
                        help="Dossier du modèle (sera créé si inexistant)")
     parser.add_argument("--tokenizer", type=str, default="../Tokenizer/tokenizer_model.bin")
-    parser.add_argument("--cycles", type=int, default=40, 
+    parser.add_argument("--cycles", type=int, default=10, 
                        help="Nombre de cycles d'entraînement")
     parser.add_argument("--articles", type=int, default=10, 
                        help="Articles Wikipedia par cycle")
@@ -411,7 +411,7 @@ def main():
                        help="Epochs par cycle")
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--lr", type=float, default=5e-5)
-    parser.add_argument("--language", type=str, default='en', 
+    parser.add_argument("--language", type=str, default='fr', 
                        help="Langue Wikipedia (fr/en)")
     parser.add_argument("--device", type=str, 
                        default="cuda" if torch.cuda.is_available() else "cpu")
