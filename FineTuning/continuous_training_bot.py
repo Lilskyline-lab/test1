@@ -402,7 +402,7 @@ def main():
     parser.add_argument("--model-dir", type=str, default="./my_tiny_chatbot", 
                        help="Dossier du modèle (sera créé si inexistant)")
     parser.add_argument("--tokenizer", type=str, default="../Tokenizer/tokenizer_model.bin")
-    parser.add_argument("--cycles", type=int, default=10, 
+    parser.add_argument("--cycles", type=int, default=2, 
                        help="Nombre de cycles d'entraînement")
     parser.add_argument("--articles", type=int, default=10, 
                        help="Articles Wikipedia par cycle")

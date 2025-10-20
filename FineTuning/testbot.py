@@ -205,7 +205,7 @@ def chat_loop(model, tokenizer, device, max_new_tokens, temperature):
 def main():
     parser = argparse.ArgumentParser(description="Charger un modèle entraîné et chatter")
     parser.add_argument("--model-dir", type=str, default="./my_tiny_chatbot", help="Répertoire contenant model.pt et config.json")
-    parser.add_argument("--tokenizer", type=str, default="../Tokenizer/tokenizer_5000.bin", help="Chemin vers le tokenizer BPE")
+    parser.add_argument("--tokenizer", type=str, default="../Tokenizer/tokenizer_model.bin", help="Chemin vers le tokenizer BPE")
     parser.add_argument("--device", type=str, default="cpu", help="Device (ex: cpu)")
     parser.add_argument("--max-new-tokens", type=int, default=40, help="Nombre de tokens à générer")
     parser.add_argument("--temperature", type=float, default=0.7, help="Température de génération")

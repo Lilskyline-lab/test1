@@ -2,10 +2,16 @@
   "cycles": [
     {
       "cycle": 1,
-      "num_qa": 67,
-      "avg_loss": 5.555277526378632,
-      "timestamp": "2025-10-20 16:57:16"
+      "num_qa": 75,
+      "avg_loss": 5.516232119666205,
+      "timestamp": "2025-10-20 17:35:25"
+    },
+    {
+      "cycle": 2,
+      "num_qa": 73,
+      "avg_loss": 5.244269847869873,
+      "timestamp": "2025-10-20 17:35:41"
     }
   ],
-  "total_qa_trained": 67
+  "total_qa_trained": 148
 }
