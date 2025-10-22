@@ -1,0 +1,187 @@
+{
+  "cycles": [
+    {
+      "cycle": 1,
+      "total_qa": 219,
+      "wiki_qa": 105,
+      "dialogue_qa": 114,
+      "avg_loss": 7.977812894185384,
+      "final_loss": 7.6438968467712405,
+      "timestamp": "2025-10-22 16:18:28"
+    },
+    {
+      "cycle": 2,
+      "total_qa": 207,
+      "wiki_qa": 93,
+      "dialogue_qa": 114,
+      "avg_loss": 7.425844411055247,
+      "final_loss": 7.1615952253341675,
+      "timestamp": "2025-10-22 16:19:34"
+    },
+    {
+      "cycle": 3,
+      "total_qa": 192,
+      "wiki_qa": 78,
+      "dialogue_qa": 114,
+      "avg_loss": 7.049401211016106,
+      "final_loss": 6.829491875388405,
+      "timestamp": "2025-10-22 16:20:30"
+    },
+    {
+      "cycle": 4,
+      "total_qa": 216,
+      "wiki_qa": 102,
+      "dialogue_qa": 114,
+      "avg_loss": 6.952609055836995,
+      "final_loss": 6.738550472259521,
+      "timestamp": "2025-10-22 16:21:45"
+    },
+    {
+      "cycle": 5,
+      "total_qa": 204,
+      "wiki_qa": 90,
+      "dialogue_qa": 114,
+      "avg_loss": 6.712578310482744,
+      "final_loss": 6.517483814902928,
+      "timestamp": "2025-10-22 16:22:51"
+    },
+    {
+      "cycle": 6,
+      "total_qa": 219,
+      "wiki_qa": 105,
+      "dialogue_qa": 114,
+      "avg_loss": 6.556214008331299,
+      "final_loss": 6.360495834350586,
+      "timestamp": "2025-10-22 16:24:08"
+    },
+    {
+      "cycle": 7,
+      "total_qa": 210,
+      "wiki_qa": 96,
+      "dialogue_qa": 114,
+      "avg_loss": 6.579697840743595,
+      "final_loss": 6.386717061201732,
+      "timestamp": "2025-10-22 16:25:31"
+    },
+    {
+      "cycle": 8,
+      "total_qa": 195,
+      "wiki_qa": 81,
+      "dialogue_qa": 114,
+      "avg_loss": 6.048393148364442,
+      "final_loss": 5.848816329782659,
+      "timestamp": "2025-10-22 16:26:29"
+    },
+    {
+      "cycle": 9,
+      "total_qa": 213,
+      "wiki_qa": 99,
+      "dialogue_qa": 114,
+      "avg_loss": 6.344282289346059,
+      "final_loss": 6.156664550304413,
+      "timestamp": "2025-10-22 16:27:38"
+    },
+    {
+      "cycle": 10,
+      "total_qa": 195,
+      "wiki_qa": 81,
+      "dialogue_qa": 114,
+      "avg_loss": 5.95118743723089,
+      "final_loss": 5.772800651463595,
+      "timestamp": "2025-10-22 16:28:39"
+    },
+    {
+      "cycle": 11,
+      "total_qa": 219,
+      "wiki_qa": 105,
+      "dialogue_qa": 114,
+      "avg_loss": 6.151176954905192,
+      "final_loss": 5.972932567596436,
+      "timestamp": "2025-10-22 16:29:50"
+    },
+    {
+      "cycle": 12,
+      "total_qa": 192,
+      "wiki_qa": 78,
+      "dialogue_qa": 114,
+      "avg_loss": 5.720149574857769,
+      "final_loss": 5.548426107926802,
+      "timestamp": "2025-10-22 16:30:47"
+    },
+    {
+      "cycle": 13,
+      "total_qa": 210,
+      "wiki_qa": 96,
+      "dialogue_qa": 114,
+      "avg_loss": 6.003358920415242,
+      "final_loss": 5.868908723195394,
+      "timestamp": "2025-10-22 16:32:02"
+    },
+    {
+      "cycle": 14,
+      "total_qa": 237,
+      "wiki_qa": 123,
+      "dialogue_qa": 114,
+      "avg_loss": 6.194664272261254,
+      "final_loss": 5.966554818329988,
+      "timestamp": "2025-10-22 16:33:26"
+    },
+    {
+      "cycle": 15,
+      "total_qa": 183,
+      "wiki_qa": 69,
+      "dialogue_qa": 114,
+      "avg_loss": 5.767813799873231,
+      "final_loss": 5.588204134078253,
+      "timestamp": "2025-10-22 16:34:27"
+    },
+    {
+      "cycle": 16,
+      "total_qa": 246,
+      "wiki_qa": 132,
+      "dialogue_qa": 114,
+      "avg_loss": 6.04791340657643,
+      "final_loss": 5.822029267038618,
+      "timestamp": "2025-10-22 16:35:53"
+    },
+    {
+      "cycle": 17,
+      "total_qa": 204,
+      "wiki_qa": 90,
+      "dialogue_qa": 114,
+      "avg_loss": 5.700227585391722,
+      "final_loss": 5.477749544641246,
+      "timestamp": "2025-10-22 16:36:56"
+    },
+    {
+      "cycle": 18,
+      "total_qa": 222,
+      "wiki_qa": 108,
+      "dialogue_qa": 114,
+      "avg_loss": 5.993425693511963,
+      "final_loss": 5.824182300567627,
+      "timestamp": "2025-10-22 16:38:12"
+    },
+    {
+      "cycle": 19,
+      "total_qa": 162,
+      "wiki_qa": 48,
+      "dialogue_qa": 114,
+      "avg_loss": 4.61471422513326,
+      "final_loss": 4.356763475819638,
+      "timestamp": "2025-10-22 16:38:55"
+    },
+    {
+      "cycle": 20,
+      "total_qa": 210,
+      "wiki_qa": 96,
+      "dialogue_qa": 114,
+      "avg_loss": 5.665260318252776,
+      "final_loss": 5.429760932922363,
+      "timestamp": "2025-10-22 16:40:05"
+    }
+  ],
+  "total_qa_trained": 4155,
+  "total_wiki_qa": 1875,
+  "total_dialogue_qa": 2280
+}
